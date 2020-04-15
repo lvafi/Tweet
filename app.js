@@ -1,4 +1,10 @@
 const express = require('express');
-const logger = require('morgan');
 
 const app = express();
+
+
+
+
+app.listen(3000, () => {
+  console.log('Express web app on localhost: 3000');
+});
